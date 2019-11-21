@@ -5,8 +5,68 @@
 <title>界面</title>
 </head>
 <body>
-    <div id="header" style="height:150px;">
-        <img src="/网页界面设计/界面图片/辅助图形/bala头部栏.jpg" >
+    <div id="header" style="height:150px">
+<html>
+<head>
+<meta charset="utf-8">
+<title>界面</title>
+</head>
+<body>
+    <div id="header" style="height:150px;background-color:#ffff16;text-align: center">
+        <img src="../网页界面设计/界面图片/辅助图形/bala新图标.png" >
+    </div>
+    <div class="title">注册</div>          
+    <div class="input">
+        <input class="text" type="text" name="name" placeholder="请输入昵称"/><br>
+        <input class="text" type="text" name="number" placeholder="请输入账号"/><br>
+        <input class="text" type="text" password name="password" placeholder="请输入密码"/><br>
+        <input class="text" type="text" password name="identifyPassword" placeholder="请确认密码"/><br>
+        <input class="button" type="submit" value="注册" />
+        <input class="button" type="submit" value="返回登录" />
     </div>
 </body>
+
+<style>
+    .title{
+        text-align: center;
+        font-size: 38px;
+        position: relative;
+        height: 50px;
+        line-height: 50px;
+        width: 1000px;
+        margin: 20px auto;
+    }
+    .title:after,.title:before{
+        content: "";
+        position: absolute;
+        top: 45%;
+        background: #BEBEBE;
+        height: 1px;
+        width: 44%;
+    }
+    .title:after{
+        left: 0;
+    }
+    .title:before{
+        right: 0;
+    }
+    .input{
+        text-align: center;
+        font-size: 38px;
+        position: relative;
+        line-height: 60px;
+        width: 1000px;
+        margin: 30px auto;
+    }
+    .text{
+        width:350px;
+        height:30px
+    }
+    .button{
+        width:100px;
+        height:30px
+    }
+</style>
+
 </html>
+     
