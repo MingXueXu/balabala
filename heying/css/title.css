@@ -1,10 +1,50 @@
+.bg{
+    background: url("../pictures/bg1.png" );
+    background-size: 900px;
+}
+.title-active{
+    color: black ;
+
+}
+.video-play {
+    width: 80%;
+    height: 500px;
+    loop: true;
+}
 .navbar{
     min-height: 100px;
-    background-color: #eecd4c;
+
+}
+.top-category{
+    font-family: 新宋体;
+    font-size: large;
+    font-weight: bolder;
+}
+.btn-toolbar{
+    margin-left: 2px;
+    margin-top: 3px;
+
+}
+.btn-default{
+    width: 45px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+.btn-default:hover{
+    background-color: #A9D6EE;
+}
+.show{
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
 }
 .footer{
-    min-height: 60px;
-    background-color: #eecd4c;
+    min-height: 40px;
+    background-color: #A9D6EE;
     text-align:center;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 5%;
 }
+
+
