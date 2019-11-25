@@ -1,0 +1,33 @@
+.play{
+    width: 100%;
+    height: 500px;
+}
+.video-show{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 110px;
+}
+.navbar{
+    min-height: 100px;
+    background-color: #eecd4c;
+}
+.like{
+    font-size:66px;
+    color:#ccc;
+    cursor:pointer;
+}
+.cs{
+    color:#f00;
+}
+#sendText {
+    width: 250px;
+    height: 22px;
+}
+
+/* 弹幕样式 */
+
+span {
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+}
